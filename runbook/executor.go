@@ -16,7 +16,7 @@ var executables = map[string][]string{
 	".cmd":    {"cmd", "/C"},
 	".ps1":    {"powershell", "-File"},
 	".sh":     {"sh"},
-	".py":     {"python"},
+	".py":     {"python3"},
 	".groovy": {"groovy"},
 	".go":     {"go", "run"},
 }
